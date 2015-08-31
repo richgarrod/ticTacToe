@@ -13,6 +13,9 @@
 		18C62BB11B9452CF004B8562 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C62BB01B9452CF004B8562 /* Images.xcassets */; };
 		18C62BB41B9452CF004B8562 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C62BB21B9452CF004B8562 /* LaunchScreen.xib */; };
 		18C62BC01B9452CF004B8562 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C62BBF1B9452CF004B8562 /* TicTacToeTests.swift */; };
+		18C62BCC1B9456AC004B8562 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C62BC91B9456AC004B8562 /* board.png */; };
+		18C62BCD1B9456AC004B8562 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C62BCA1B9456AC004B8562 /* cross.png */; };
+		18C62BCE1B9456AC004B8562 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C62BCB1B9456AC004B8562 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		18C62BB91B9452CF004B8562 /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C62BBE1B9452CF004B8562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C62BBF1B9452CF004B8562 /* TicTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeTests.swift; sourceTree = "<group>"; };
+		18C62BC91B9456AC004B8562 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		18C62BCA1B9456AC004B8562 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		18C62BCB1B9456AC004B8562 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		18C62BA61B9452CF004B8562 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				18C62BC91B9456AC004B8562 /* board.png */,
+				18C62BCA1B9456AC004B8562 /* cross.png */,
+				18C62BCB1B9456AC004B8562 /* nought.png */,
 				18C62BA91B9452CF004B8562 /* AppDelegate.swift */,
 				18C62BAB1B9452CF004B8562 /* ViewController.swift */,
 				18C62BAD1B9452CF004B8562 /* Main.storyboard */,
@@ -192,6 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C62BCD1B9456AC004B8562 /* cross.png in Resources */,
+				18C62BCC1B9456AC004B8562 /* board.png in Resources */,
+				18C62BCE1B9456AC004B8562 /* nought.png in Resources */,
 				18C62BAF1B9452CF004B8562 /* Main.storyboard in Resources */,
 				18C62BB41B9452CF004B8562 /* LaunchScreen.xib in Resources */,
 				18C62BB11B9452CF004B8562 /* Images.xcassets in Resources */,
